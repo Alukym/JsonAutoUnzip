@@ -28,7 +28,7 @@ int main(int argc, const char* argv[]) {
 	auto LastZip = ini.GetValue("AutoUnzip", "LastZip");
 	if (LastZip == nullptr) {
 		if (ZipList.size() == 0) {
-			printf("[ERROR] 目录 %s 里没有zip文件，请检查目录是否为空！\n", (CurrentPath + zipDirName).c_str());
+			printf("[ERROR] 目录 %s 里没有文件，请将zip文件放入该目录！\n", (CurrentPath + zipDirName).c_str());
 			system("pause");
 			exit(-1);
 		}
