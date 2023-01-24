@@ -16,11 +16,8 @@ const string zipDirName = "\\zip";
 
 int main(int argc, const char* argv[]) {
 	string CurrentPath = filesystem::current_path().u8string();
-	FILE* fp = fopen("cfg.ini", "a");
-	fclose(fp);
-	ini.SetUnicode();
+	//ini.SetUnicode();
 	ini.LoadFile("cfg.ini");
-	ini.SetValue("section", "key", "newvalue");
 	
 	string inputDir = CurrentPath + zipDirName + "\\*";
 	vector<string> ZipList = GetZipList(inputDir);
@@ -42,6 +39,7 @@ int main(int argc, const char* argv[]) {
 		cout << "[INFO] 读取配置成功!\n上次的文件: " << LastZip << endl;
 	}
 
+	ini.SaveFile("cfg.ini");
 	system("pause");
 	return 0;
 }
