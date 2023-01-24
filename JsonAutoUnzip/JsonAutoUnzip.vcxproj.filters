@@ -23,12 +23,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\includes\SimpleIni.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\includes\unzip.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="util.h">
       <Filter>头文件</Filter>
     </ClInclude>

@@ -3,8 +3,8 @@
 #include <sstream>
 #include <Windows.h>
 
-#include "unzip.h"
-#include "SimpleIni.h"
+#include "includes/unzip.h"
+#include "includes/SimpleIni.h"
 #include "util.h"
 
 using namespace std;

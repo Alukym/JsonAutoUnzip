@@ -71,20 +71,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\repos\JsonAutoUnzip\includes;$(IncludePath)</IncludePath>
-    <ExternalIncludePath>D:\repos\JsonAutoUnzip\includes;$(ExternalIncludePath)</ExternalIncludePath>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>D:\repos\JsonAutoUnzip\includes;$(IncludePath)</IncludePath>
-    <ExternalIncludePath>D:\repos\JsonAutoUnzip\includes;$(ExternalIncludePath)</ExternalIncludePath>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\repos\JsonAutoUnzip\includes;$(IncludePath)</IncludePath>
-    <ExternalIncludePath>D:\repos\JsonAutoUnzip\includes;$(ExternalIncludePath)</ExternalIncludePath>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>D:\repos\JsonAutoUnzip\includes;$(IncludePath)</IncludePath>
-    <ExternalIncludePath>D:\repos\JsonAutoUnzip\includes;$(ExternalIncludePath)</ExternalIncludePath>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -151,8 +151,6 @@
     <ClCompile Include="util.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\includes\SimpleIni.h" />
-    <ClInclude Include="..\includes\unzip.h" />
     <ClInclude Include="util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
