@@ -16,7 +16,7 @@ const string zipDirName = "\\zip";
 
 int main(int argc, const char* argv[]) {
 	string CurrentPath = filesystem::current_path().u8string();
-	//ini.SetUnicode();
+	ini.SetUnicode();
 	ini.LoadFile("cfg.ini");
 	
 	string inputDir = CurrentPath + zipDirName + "\\*";
