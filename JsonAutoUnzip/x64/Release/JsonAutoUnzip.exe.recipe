@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\repos\JsonAutoUnzip\x64\Debug\JsonAutoUnzip.exe</FullPath>
+      <FullPath>D:\repos\JsonAutoUnzip\x64\Release\JsonAutoUnzip.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -1,9 +1,3 @@
-#include <windows.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <tchar.h>
-
 #ifndef _unzip_H
 #define _unzip_H
 

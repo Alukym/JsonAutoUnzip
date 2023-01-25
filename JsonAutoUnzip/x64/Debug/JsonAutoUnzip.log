@@ -1,2 +1,7 @@
 ﻿  main.cpp
-  JsonAutoUnzip.vcxproj -> C:\Users\admin\Documents\GitHub\JsonAutoUnzip\x64\Debug\JsonAutoUnzip.exe
+  util.cpp
+  正在生成代码...
+main.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl CheckFile(class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?CheckFile@@YA_NV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl DecompressZip(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?DecompressZip@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl DeleteDir(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?DeleteDir@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)，函数 main 中引用了该符号
+D:\repos\JsonAutoUnzip\x64\Debug\JsonAutoUnzip.exe : fatal error LNK1120: 3 个无法解析的外部命令
